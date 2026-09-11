@@ -1,4 +1,6 @@
-# Gmail-AutoFill
+# 📨 Gmail AutoFill
+
+[![Firefox Add-on](https://img.shields.io/badge/Firefox-Addon-FF7139?logo=firefox&logoColor=white&style=for-the-badge)](https://addons.mozilla.org/ru/firefox/addon/gmail-autofill/)
 
 **Automatically insert verification codes and magic links from your inbox directly into websites.**
 
@@ -23,19 +25,19 @@ The extension doesn't require you to enter your email password or grant complex 
 
 ## 📥 Installation
 
-You can download the ready-made extensions from the **[Releases](../../releases)** page.
+### Mozilla Firefox
+The easiest way to install the extension is directly from the official Firefox Add-ons store:
+👉 **[Install Gmail AutoFill for Firefox](https://addons.mozilla.org/ru/firefox/addon/gmail-autofill/)**
+
+*(Alternatively, you can download the `.xpi` file manually from the [Releases](../../releases) page).*
 
 ### Google Chrome / Chromium / Edge
+You can install the extension manually by downloading the ready-made archive from the **[Releases](../../releases)** page.
+
 1. Download `gmail-code-extractor-chrome.zip` from the **Releases** tab and extract it into a folder.
 2. Open your browser and go to `chrome://extensions/` (or `edge://extensions/`).
 3. Enable **Developer mode** (toggle in the top right corner).
 4. Click **Load unpacked** and select the folder where you extracted the extension.
-
-### Mozilla Firefox
-1. Download `gmail-code-extractor.xpi` from the **Releases** tab.
-2. Open Firefox and go to `about:addons`.
-3. Click the gear icon ⚙️ and select **Install Add-on From File...**.
-4. Choose the downloaded `.xpi` file and click **Add**.
 
 ---
 *Automatically detects code input fields on websites and retrieves the code from Gmail.*
